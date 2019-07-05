@@ -47,7 +47,7 @@ public class ProfileFragment extends Fragment {
         myView = inflater.inflate(R.layout.profile_layout, container, false);
         storage = FirebaseStorage.getInstance();
         storageReference = storage.getReference();
-
+//hh
         progressDialog = new ProgressDialog(getActivity());
         progressDialog.setMessage("Please wait...");
         progressDialog.setCancelable(false);
